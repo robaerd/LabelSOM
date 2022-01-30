@@ -1,0 +1,21 @@
+#chainlink_small prop file
+# somtoolbox [GrowingSOM, -l, LabelSOM, -n, 3, --numberWinners, 300, --cpus, 
+#   12, /home/clemens/Dokumente/Bildung/TU Wien/1. 
+#   Semester/Selbstorganisierende Systeme/Uebung 
+#   3/Results/Chainlink/small/chainlink_small.prop]
+#
+#Sun Jan 30 18:47:35 CET 2022
+metricName=at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+workingDirectory=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/Results/Chainlink/small
+tau=1.0
+templateFileName=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/Chainlink/chainlink.tv
+ySize=20
+learnRate=0.7
+randomSeed=7
+numIterations=1500
+namePrefix=chainlink_small
+vectorFileName=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/Chainlink/chainlink.vec
+sparseData=no
+outputDirectory=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/Results/Chainlink/small
+xSize=40
+isNormalized=no

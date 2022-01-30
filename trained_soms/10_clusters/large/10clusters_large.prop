@@ -1,0 +1,21 @@
+#10clusters_large prop file
+# somtoolbox [GrowingSOM, -l, LabelSOM, -n, 3, --numberWinners, 300, --cpus, 
+#   12, /home/clemens/Dokumente/Bildung/TU Wien/1. 
+#   Semester/Selbstorganisierende Systeme/Uebung 
+#   3/Results/10clusters/large/10clusters_large.prop]
+#
+#Sun Jan 30 18:48:28 CET 2022
+metricName=at.tuwien.ifs.somtoolbox.layers.metrics.L2Metric
+workingDirectory=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/Results/10clusters/large
+tau=1.0
+templateFileName=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/10 Clusters/10clusters.tv
+ySize=60
+learnRate=0.7
+randomSeed=7
+numIterations=1500
+namePrefix=10clusters_large
+vectorFileName=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/10 Clusters/10clusters.vec
+sparseData=no
+outputDirectory=/home/clemens/Dokumente/Bildung/TU Wien/1. Semester/Selbstorganisierende Systeme/Uebung 3/Results/10clusters/large
+xSize=100
+isNormalized=no
